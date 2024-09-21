@@ -8,7 +8,7 @@ class SimpleCircle
 {
 public:
 	SimpleCircle() {};
-	SimpleCircle(int radius) : Radius(radius) {};
+	SimpleCircle(int itsRadius) : Radius(itsRadius) {};
 	~SimpleCircle() {};
 
 	void setRadius(int radius)
